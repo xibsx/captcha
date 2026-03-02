@@ -1,0 +1,17 @@
+{
+  "name": "FREEXIBS CAPTCHA",
+  "description": "One line CAPTCHA solution - Just add <xibs></xibs>",
+  "repository": "https://github.com/yourusername/frexibs-captcha",
+  "keywords": ["captcha", "security", "custom-element", "anti-bot"],
+  "env": {
+    "NODE_ENV": {
+      "description": "Environment",
+      "value": "production"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
